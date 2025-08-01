@@ -140,7 +140,7 @@ def analisar_email_unico(assunto_email, conteudo_email):
         'predict_phishing': rotulo_previsto
     }, resultado_texto
 
-def salvar_resultados_txt(resultado_texto, nome_arquivo="resultados_analise_phishing.txt"):
+def salvar_resultados_txt(resultado_texto, nome_arquivo="report.txt"):
     """Salva os resultados em arquivo de texto"""
     with open(nome_arquivo, 'w', encoding='utf-8') as arquivo:
         for linha in resultado_texto:
