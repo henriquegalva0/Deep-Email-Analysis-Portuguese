@@ -1,0 +1,9 @@
+transformers
+datasets
+accelerate
+peft
+bitsandbytes
+torch
+deep_translator
+evaluate
+bitsandbytes
