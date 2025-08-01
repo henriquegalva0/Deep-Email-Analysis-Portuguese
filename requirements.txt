@@ -1,5 +1,7 @@
 transformers
 datasets
+accelerate
 torch
 deep_translator
-scikit-learn
+evaluate
+language_tool_python
